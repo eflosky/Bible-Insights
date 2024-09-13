@@ -13,3 +13,4 @@ This is an app created by Ethan Flosky. This project has a couple of purposes. F
 
 ## Important Links
 [Figma](https://www.figma.com/design/4KHXofKFGrazEyQL2Zz54m/Bible-App?node-id=0-1&node-type=canvas&t=NLDDngZRqHgpYg8F-0)
+[MIRO](https://miro.com/app/board/uXjVKtaWh5I=/)
