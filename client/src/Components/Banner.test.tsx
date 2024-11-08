@@ -3,7 +3,7 @@ import {render, screen} from "@testing-library/react";
 import React from "react";
 import Banner from "./Banner";
 
-describe('Header Tests', () => {
+describe('Banner Tests', () => {
     beforeEach(() => {
         render(<Banner />);
     });

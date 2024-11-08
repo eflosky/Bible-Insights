@@ -12,4 +12,12 @@ describe('App Tests', () => {
     it('Expect header to appear on App ', () => {
         screen.getByText('Bible Insights');
     });
+
+    it('Expect banner to appear on App ', () => {
+        screen.getByText('Bible Notes Tracker');
+    });
+
+    it('Expect we believe section to appear on App ', () => {
+       screen.getByText('What books are in the Bible?');
+    });
 });

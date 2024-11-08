@@ -1,0 +1,19 @@
+.WeBelieve{
+  .QuestionAndLink{
+    position: relative;
+
+    & img{
+        position: absolute;
+        z-index: 1;
+    }
+
+    & p{
+      z-index: 2;
+    }
+
+    .linkToPage{
+      z-index: 2;
+    }
+
+  }
+}
