@@ -1,5 +1,11 @@
 body {
   margin: 0;
-  /*font-family:*/
+  background-color: #EAE8E8;
+}
+
+@media (max-width: 999px) {
+  body {
+    width: 1000px;
+  }
 }
 
