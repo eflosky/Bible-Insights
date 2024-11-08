@@ -21,7 +21,6 @@ describe('Header Tests', () => {
         screen.getByText("Track")
         screen.getByText("Memorize")
         screen.getByText("Find Songs")
-        screen.getByText("About")
     });
 
     it('Expect search icon to appear', () => {

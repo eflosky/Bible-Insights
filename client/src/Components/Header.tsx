@@ -12,15 +12,14 @@ export default function Header(){
                 <p>Bible Insights</p>
             </div>
 
-            <div className={"Header-Page-Links"}>
-                <p>Track</p>
-                <p>Memorize</p>
-                <p>Find Songs</p>
-                <p>About</p>
+            <div className={"Header-Page-Links"} alt-text={'Page Links'}>
+                <p alt-text={'Track'}>Track</p>
+                <p alt-text={'Memorize'}>Memorize</p>
+                <p alt-text={'Find Songs'}>Find Songs</p>
             </div>
 
             <div className={"Search-and-User"}>
-                <img className={'search vertical-line'} src={search} alt={'search'}/>
+                <img className={'search vertical-line'} src={search} alt={'search'} />
                 <img className={'user'} src={user} alt={'user'}/>
             </div>
         </div>
