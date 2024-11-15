@@ -1,6 +1,11 @@
 import React from 'react';
-import '/FindMusic.css';
+import './FindMusic.scss';
 
 export default function FindMusic() {
-    return (<></>);
+    return (
+    <div className={"find-music"}>
+        <h1>Find Biblical Music</h1>
+
+    </div>
+    );
 }

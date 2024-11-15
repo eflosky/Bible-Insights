@@ -20,4 +20,8 @@ describe('App Tests', () => {
     it('Expect we believe section to appear on App ', () => {
        screen.getByText('What books are in the Bible?');
     });
+
+    it(`Expect find music section to appear on App`, () => {
+        screen.getByText('Find Biblical Music');
+    });
 });

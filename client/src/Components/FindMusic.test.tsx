@@ -1,5 +1,5 @@
-import {describe} from "vitest";
-import {render} from "@testing-library/react";
+import {describe, it} from "vitest";
+import {render, screen} from "@testing-library/react";
 import React from "react";
 import FindMusic from "./FindMusic";
 
@@ -8,6 +8,7 @@ describe('Find Music Tests', () => {
         render(<FindMusic/>);
     });
 
-    it('Expect What books are in the bible circle to appear', () => {
+    it(`Expect find biblical music heading to appear`, () => {
+        screen.getByText('Find Biblical Music');
     });
 });
