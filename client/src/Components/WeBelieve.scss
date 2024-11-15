@@ -1,19 +1,58 @@
 .WeBelieve{
+
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  margin: 5rem 2rem;
+  text-align: center;
+  align-items: center;
+
+  & h1{
+    margin: unset;
+    font-size: calc(1.5vh + 1.5vw);
+
+    @media (max-width: 1000px){
+      font-size: 1.5rem;
+    }
+  }
+
   .QuestionAndLink{
     position: relative;
 
-    & img{
-        position: absolute;
-        z-index: 1;
-    }
+    .content{
+      margin: unset;
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      width: 80%;
+      transform: translate(-50%, -50%);
 
-    & p{
-      z-index: 2;
-    }
 
-    .linkToPage{
-      z-index: 2;
-    }
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
+      & p{
+        margin: 1.5rem 0;
+        color: #37375C;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+
+      .linkToPage{
+        color: black;
+        font-size: 1rem;
+        font-weight: 500;
+        background: #C7CEFF;
+        width: 60%;
+        height: 3rem;
+        border-radius: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+    }
   }
 }
